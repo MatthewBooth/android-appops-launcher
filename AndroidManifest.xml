@@ -12,7 +12,8 @@
     <application
         android:icon="@mipmap/ic_launcher_settings"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.NoDisplay" >
+        android:theme="@android:style/Theme.NoDisplay"
+        android:allowBackup="false" >
         <activity
             android:name="fr.slvn.appops.MainActivity"
             android:label="@string/app_name">
